@@ -1,0 +1,5 @@
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\linux-x64\publish\DoiTLean.FuzzyWuzzy.dll
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\linux-x64\publish\DoiTLean.FuzzyWuzzy.deps.json
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\linux-x64\publish\DoiTLean.FuzzyWuzzy.pdb
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\linux-x64\publish\FuzzySharp.dll
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\linux-x64\publish\OutSystems.ExternalLibraries.SDK.dll

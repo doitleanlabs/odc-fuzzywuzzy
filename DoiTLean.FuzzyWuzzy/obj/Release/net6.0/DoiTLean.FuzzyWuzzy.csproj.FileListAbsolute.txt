@@ -1,0 +1,15 @@
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.csproj.AssemblyReference.cache
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.csproj.GenerateResource.cache
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\DoiTLean.FuzzyWuzzy.deps.json
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\DoiTLean.FuzzyWuzzy.dll
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\bin\Release\net6.0\DoiTLean.FuzzyWuzzy.pdb
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.Properties.Resources.resources
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.AssemblyInfoInputs.cache
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.AssemblyInfo.cs
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.csproj.CoreCompileInputs.cache
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.sourcelink.json
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.dll
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\refint\DoiTLean.FuzzyWuzzy.dll
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\DoiTLean.FuzzyWuzzy.pdb
+C:\Repo\odc-fuzzywuzzy\odc-fuzzywuzzy\DoiTLean.FuzzyWuzzy\obj\Release\net6.0\ref\DoiTLean.FuzzyWuzzy.dll

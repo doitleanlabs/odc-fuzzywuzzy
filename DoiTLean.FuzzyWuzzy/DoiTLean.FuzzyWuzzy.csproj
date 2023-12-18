@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="resources\odc_fuzzy_wuzzy.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="resources\odc_fuzzy_wuzzy.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FuzzySharp" Version="2.0.2" />
+        <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Properties\Resources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Resources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Properties\Resources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+</Project>

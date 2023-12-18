@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KojHz6cI8avCpc2FouRWhVxwFiZxRTpCfSgXF0QfQgWZSSjR9X8KuYSE9GfSQZUOulB+fwnqQWWnQOq7F0P2UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabio.fantato\\.nuget\\packages\\fuzzysharp\\2.0.2\\fuzzysharp.2.0.2.nupkg.sha512",
+    "C:\\Users\\fabio.fantato\\.nuget\\packages\\outsystems.externallibraries.sdk\\1.4.0\\outsystems.externallibraries.sdk.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
