@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoiTLean.FuzzyWuzzy.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b09d4765a9ffd42d5ac865cd12c1a0ccbc5b024d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcdcb9b43304284bebd55a62eaa365abb8341199")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoiTLean.FuzzyWuzzy.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoiTLean.FuzzyWuzzy.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
