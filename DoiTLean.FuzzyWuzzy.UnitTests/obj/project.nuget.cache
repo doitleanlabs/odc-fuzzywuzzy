@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1SCUn0RyOR/Exy96dlcRxoVj3Hm+IrhF5/h+9vLP0kIRyXXN4Wt7jmwnSeyNQiI9zvtq1H3J7bnx9Hj9h+t7EQ==",
+  "dgSpecHash": "ijXMoi56waE=",
   "success": true,
-  "projectFilePath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj",
+  "projectFilePath": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabio.fantato\\.nuget\\packages\\fuzzysharp\\2.0.2\\fuzzysharp.2.0.2.nupkg.sha512",
     "C:\\Users\\fabio.fantato\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

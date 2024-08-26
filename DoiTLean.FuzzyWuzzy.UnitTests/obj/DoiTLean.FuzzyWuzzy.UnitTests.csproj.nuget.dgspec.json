@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj": {}
+    "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj": {
+    "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj",
+        "projectUniqueName": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj",
         "projectName": "DoiTLean.FuzzyWuzzy.UnitTests",
-        "projectPath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj",
+        "projectPath": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\DoiTLean.FuzzyWuzzy.UnitTests.csproj",
         "packagesPath": "C:\\Users\\fabio.fantato\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\obj\\",
+        "outputPath": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabio.fantato\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj": {
-                "projectPath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj"
+              "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj": {
+                "projectPath": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj"
               }
             }
           }
@@ -38,11 +38,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -77,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -86,29 +91,29 @@
         }
       }
     },
-    "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj": {
+    "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj",
+        "projectUniqueName": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj",
         "projectName": "DoiTLean.FuzzyWuzzy",
-        "projectPath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj",
+        "projectPath": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\DoiTLean.FuzzyWuzzy.csproj",
         "packagesPath": "C:\\Users\\fabio.fantato\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\odc-fuzzywuzzy\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\obj\\",
+        "outputPath": "C:\\Repo\\odc-fuzzywuzzy\\DoiTLean.FuzzyWuzzy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabio.fantato\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -116,11 +121,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "FuzzySharp": {
               "target": "Package",
@@ -147,7 +157,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
