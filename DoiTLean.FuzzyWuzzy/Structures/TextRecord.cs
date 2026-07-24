@@ -1,6 +1,4 @@
 ﻿using OutSystems.ExternalLibraries.SDK;
-using System;
-using System.Xml.Linq;
 
 namespace DoiTLean.FuzzyWuzzy.Structures
 {

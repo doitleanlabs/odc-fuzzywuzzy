@@ -1,8 +1,6 @@
-﻿using System;
-using System.IO;
-using DoiTLean.FuzzyWuzzy.Structures;
+﻿using DoiTLean.FuzzyWuzzy.Structures;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.Linq;
 using FuzzySharp;
 using FuzzySharp.Extractor;
 
@@ -16,7 +14,21 @@ namespace DoiTLean.FuzzyWuzzy {
 
 
         /// <summary>
-        /// 
+        /// Converts the OutSystems record list into the plain string list FuzzySharp expects.
+        /// Missing/null Text fields become empty strings so indexes still line up with the input.
+        /// </summary>
+        private static List<string> ToElementList(List<TextRecord> Strings)
+        {
+            if (Strings == null)
+            {
+                return new List<string>();
+            }
+
+            return Strings.Select(rec => rec.Text ?? string.Empty).ToList();
+        }
+
+        /// <summary>
+        ///
         /// </summary>
         /// <param name="String"></param>
         /// <param name="Strings"></param>
@@ -27,29 +39,25 @@ namespace DoiTLean.FuzzyWuzzy {
         {
             Result = new List<ResultRecord>();
 
-            List<string> elements = new List<string>();
-            foreach (TextRecord CurrentRec in Strings)
+            // Nothing to search against: return an empty result instead of crashing across the OutSystems boundary.
+            if (string.IsNullOrEmpty(String) || Strings == null || Strings.Count == 0)
             {
-                elements.Add(CurrentRec.Text.ToString());
+                return;
             }
-  
+
+            List<string> elements = ToElementList(Strings);
+
             IEnumerable<ExtractedResult<string>> results = FuzzySharp.Process.ExtractTop(String, elements, limit: Limit, cutoff: Cutoff);
 
             foreach (ExtractedResult<string> res in results)
             {
-                ResultRecord record = new ResultRecord();
-
-                record.Index = res.Index;
-                record.Score = res.Score;
-                record.String = res.Value;
-
-                Result.Add(record);
+                Result.Add(new ResultRecord(res.Value, res.Score, res.Index));
             }
 
         } // Process_ExtractTop
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="String"></param>
         /// <param name="Strings"></param>
@@ -59,28 +67,23 @@ namespace DoiTLean.FuzzyWuzzy {
         {
             Result = new List<ResultRecord>();
 
-            List<string> elements = new List<string>();
-            foreach (TextRecord CurrentRec in Strings)
+            if (string.IsNullOrEmpty(String) || Strings == null || Strings.Count == 0)
             {
-                elements.Add(CurrentRec.Text.ToString());
+                return;
             }
-            
+
+            List<string> elements = ToElementList(Strings);
+
             IEnumerable<ExtractedResult<string>> results = FuzzySharp.Process.ExtractAll(String, elements, cutoff: Cutoff);
 
             foreach (ExtractedResult<string> res in results)
             {
-                ResultRecord record = new ResultRecord();
-
-                record.Index = res.Index;
-                record.Score = res.Score;
-                record.String = res.Value;
-
-                Result.Add(record);
+                Result.Add(new ResultRecord(res.Value, res.Score, res.Index));
             }
         } // Process_ExtractAll
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="String"></param>
         /// <param name="Strings"></param>
@@ -90,23 +93,18 @@ namespace DoiTLean.FuzzyWuzzy {
         {
             Result = new List<ResultRecord>();
 
-            List<string> elements = new List<string>();
-            foreach (TextRecord CurrentRec in Strings)
+            if (string.IsNullOrEmpty(String) || Strings == null || Strings.Count == 0)
             {
-                elements.Add(CurrentRec.Text.ToString());
+                return;
             }
+
+            List<string> elements = ToElementList(Strings);
 
             IEnumerable<ExtractedResult<string>> results = FuzzySharp.Process.ExtractSorted(String, elements, cutoff: Cutoff);
 
             foreach (ExtractedResult<string> res in results)
             {
-                ResultRecord record = new ResultRecord();
-
-                record.Index = res.Index;
-                record.Score = res.Score;
-                record.String = res.Value;
-
-                Result.Add(record);
+                Result.Add(new ResultRecord(res.Value, res.Score, res.Index));
             }
         } // Proce_ExtractSorted
 
@@ -233,7 +231,9 @@ namespace DoiTLean.FuzzyWuzzy {
         } // WeightedRatio
 
         /// <summary>
-        /// 
+        /// Returns a default (empty) ResultRecord when there is nothing to match against,
+        /// since FuzzySharp.Process.ExtractOne returns null in that case and would otherwise
+        /// throw a NullReferenceException across the OutSystems boundary.
         /// </summary>
         /// <param name="String"></param>
         /// <param name="Strings"></param>
@@ -242,19 +242,24 @@ namespace DoiTLean.FuzzyWuzzy {
         {
             Result = new ResultRecord();
 
-            List<string> elements = new List<string>();
-            foreach (TextRecord CurrentRec in Strings)
+            if (string.IsNullOrEmpty(String) || Strings == null || Strings.Count == 0)
             {
-                elements.Add(CurrentRec.Text.ToString());
+                return;
             }
 
+            List<string> elements = ToElementList(Strings);
 
             ExtractedResult<string> result = FuzzySharp.Process.ExtractOne(String, elements);
+            if (result == null)
+            {
+                return;
+            }
+
             Result.String = result.Value;
             Result.Score = result.Score;
             Result.Index = result.Index;
 
-        } // Proce_ExtractOne
+        } // Process_ExtractOne
 
 
 

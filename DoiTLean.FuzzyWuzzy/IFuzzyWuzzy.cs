@@ -33,8 +33,8 @@ namespace DoiTLean.FuzzyWuzzy
         /// </summary>
         /// <param name="String1"></param>
         /// <param name="String2"></param>
-        /// <param name=Ratio"></param>
-        [OSAction] 
+        /// <param name="Ratio"></param>
+        [OSAction]
         void PartialRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -44,6 +44,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void TokenSortRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -53,6 +54,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void PartialTokenSortRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -62,6 +64,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void TokenSetRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -71,6 +74,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void PartialTokenSetRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -84,6 +88,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void TokenInitialismRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -93,6 +98,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void PartialTokenInitialismRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -102,6 +108,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void TokenAbbreviationRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -111,6 +118,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void PartialTokenAbbreviationRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -120,6 +128,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String1"></param>
         /// <param name="String2"></param>
         /// <param name="Ratio"></param>
+        [OSAction]
         void WeightedRatio(string String1, string String2, out int Ratio);
 
         /// <summary>
@@ -129,6 +138,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="String"></param>
         /// <param name="Strings"></param>
         /// <param name="Result"></param>
+        [OSAction]
         void Process_ExtractOne(string String, List<TextRecord> Strings, out ResultRecord Result);
 
         /// <summary>
@@ -140,6 +150,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="Limit"></param>
         /// <param name="Cutoff"></param>
         /// <param name="Result"></param>
+        [OSAction]
         void Process_ExtractTop(string String, List<TextRecord> Strings, int Limit, int Cutoff, out List<ResultRecord> Result);
 
         /// <summary>
@@ -153,6 +164,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="Strings"></param>
         /// <param name="Cutoff"></param>
         /// <param name="Result"></param>
+        [OSAction]
         void Process_ExtractAll(string String, List<TextRecord> Strings, int Cutoff, out List<ResultRecord> Result);
 
         /// <summary>
@@ -163,6 +175,7 @@ namespace DoiTLean.FuzzyWuzzy
         /// <param name="Strings"></param>
         /// <param name="Cutoff"></param>
         /// <param name="Result"></param>
+        [OSAction]
         void Process_ExtractSorted(string String, List<TextRecord> Strings, int Cutoff, out List<ResultRecord> Result);
 
     }
